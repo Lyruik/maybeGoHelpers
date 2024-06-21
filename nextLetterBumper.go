@@ -1,6 +1,6 @@
 package nextLetterBumper
 
-func nextLetterConvert(w string) string {
+func NextLetterConvert(w string) string {
 	output := make([]int32, len(w))
 	for i := 0; i < len(w); i++ {
 		n := int32(w[i]) + 1
