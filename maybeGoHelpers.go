@@ -1,4 +1,4 @@
-package nextLetterBumper
+package maybeGoHelpers
 
 func NextLetterConvert(w string) string {
 	output := make([]int32, len(w))
